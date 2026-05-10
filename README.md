@@ -1,51 +1,19 @@
 # Final Simulation Study Export
 
-This folder contains the standalone code and bundled result data needed to run the exported final simulation study and reproduce its plots.
+This folder contains the standalone code and bundled result data needed to reproduce the simulation study from the paper *Infinitely divisible priors for multivariate survival
+functions* which can be found [here](https://arxiv.org/abs/2502.09162).
 
 ## Contents
 
-- `environment.yml`: Conda environment exported from the active `IDEMpriors` environment, with the machine-specific `prefix` removed.
+- `environment.yml`: Conda environment `IDEMpriors` which contains all necessary packages.
 - `Results/final_sim_study`: Bundled simulation-study outputs used to reproduce the exported plots.
 - `final_Final_simulation.py`: Main entrypoint for the full exported simulation study.
-- `final_simulation_study_plots.py`: Plotting code used by the exported study.
-- Remaining `final_*.py` files: runtime dependencies of the exported entrypoint.
+- Remaining `final_*.py` files: helper files to reproduce the simulation and the plots.
 
-## Create the environment
-
-From inside this folder:
-
-```bash
-conda env create -f environment.yml
-conda activate IDEMpriors
-```
-
-If an `IDEMpriors` environment already exists and you want to update it instead:
-
-```bash
-conda env update -f environment.yml --prune
-conda activate IDEMpriors
-```
-
-## Run the simulation study
-
-From inside this folder:
-
-```bash
-python final_Final_simulation.py
-```
-
-The script writes outputs relative to this folder:
-
-- results: `Results/final_sim_study`
-- plots: `Plots/final_sim_study`
-
-The exported bundle already includes the final-study result files in `Results/final_sim_study`.
-
-The entrypoint is resumable. If intermediate sample files already exist in `Results/final_sim_study`, the script reuses them and only simulates missing outputs. This means you can reproduce the plots from the bundled data without first rerunning the full simulation from scratch.
 
 ## Default study settings
 
-The exported entrypoint currently runs with these defaults:
+The simulation study runs with these defaults:
 
 - `n_obs_per_margin = 6`
 - `tau0 = 1.0`
