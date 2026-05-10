@@ -1,0 +1,215 @@
+{
+  "arrays_path": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Results\\final_sim_study\\data_study_arrays.npz",
+  "save_dir": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study",
+  "fixed_radius": 0.5,
+  "confidence_level": 0.9,
+  "derivative_delta_values": [
+    0.1,
+    0.5,
+    1.0
+  ],
+  "fixed_anchor_time": 0.1,
+  "shifted_anchor_fixed_delta": 0.5,
+  "hazard_delta_values": [
+    0.1,
+    0.2,
+    0.5
+  ],
+  "positive_anchor_shifts": [
+    0.01,
+    0.05,
+    0.1
+  ],
+  "negative_anchor_shifts": [
+    -0.01,
+    -0.05,
+    -0.1,
+    -0.5
+  ],
+  "derivative_anchor_points": {
+    "group_1": [
+      0.4692680899768591,
+      3.010121430917521,
+      1.3167456935454493,
+      0.9129425537759532,
+      0.16962487046234628,
+      0.16959629191460518
+    ],
+    "group_2": [
+      0.2446196406846365,
+      1.4181787138721056,
+      0.9586877247713483,
+      1.10961707886306,
+      0.14421965191727035,
+      1.8717792271414682
+    ]
+  },
+  "prior_predictive_means": [
+    1.4114974867171504,
+    1.4147744766638986
+  ],
+  "posterior_predictive_means": [
+    1.0968170123953065,
+    1.1324675275384657
+  ],
+  "empirical_group_means": [
+    1.0080498217654557,
+    0.9578503395416482
+  ],
+  "saved_paths": {
+    "survival": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_survival.pdf"
+    },
+    "cumulative_hazard": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_cumulative_hazard.pdf"
+    },
+    "local_mass": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass.pdf"
+    },
+    "local_mass_positive": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_positive.pdf"
+    },
+    "local_mass_negative": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_negative.pdf"
+    },
+    "local_mass_positive_normalized": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_positive_normalized.pdf"
+    },
+    "local_mass_negative_normalized": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_negative_normalized.pdf"
+    },
+    "local_mass_positive_normalized_cumhaz": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_positive_normalized_cumhaz.pdf"
+    },
+    "local_mass_negative_normalized_cumhaz": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_local_mass_negative_normalized_cumhaz.pdf"
+    },
+    "nearest_observed_event": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_nearest_observed_event.pdf"
+    },
+    "nearest_observed_event_positive": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_nearest_observed_event_positive.pdf"
+    },
+    "nearest_observed_event_negative": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_nearest_observed_event_negative.pdf"
+    },
+    "group_overlay_survival_cumhaz": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_group_overlay_survival_cumhaz.pdf"
+    },
+    "posterior_predictive_scatter": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_posterior_predictive_scatter.pdf"
+    },
+    "hazard_rate_estimate": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_hazard_rate_estimate.pdf"
+    },
+    "posterior_cumhaz_derivative_approx": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_posterior_cumhaz_derivative_approx.pdf"
+    },
+    "posterior_cumhaz_derivative_fixed_anchor": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_posterior_cumhaz_derivative_fixed_anchor.pdf"
+    },
+    "posterior_cumhaz_derivative_shifted_anchor_positive": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_posterior_cumhaz_derivative_shifted_anchor_positive.pdf"
+    },
+    "posterior_cumhaz_derivative_shifted_anchor_negative": {
+      "png": null,
+      "pdf": "C:\\Users\\Flobr\\Documents\\Python_projects\\IDEMpriors\\Export\\Plots\\final_sim_study\\toy_simulation_posterior_cumhaz_derivative_shifted_anchor_negative.pdf"
+    }
+  },
+  "summaries": {
+    "margin_1": {
+      "fixed_radius": 0.5,
+      "confidence_level": 0.9,
+      "posterior_survival_dkw_epsilon": 0.038702275602049495,
+      "posterior_local_mass_dkw_epsilon": 0.07740455120409899,
+      "posterior_nearest_event_dkw_epsilon": 0.038702275602049495,
+      "prior_survival_dkw_epsilon": null,
+      "prior_local_mass_dkw_epsilon": null,
+      "prior_nearest_event_dkw_epsilon": null,
+      "prior_average_local_mass": 0.28477637904988473,
+      "posterior_average_local_mass": 0.35883333333333384,
+      "posterior_minus_prior_average_local_mass": 0.0740569542834491,
+      "prior_average_local_mass_positive": 0.17604396990169055,
+      "posterior_average_local_mass_positive": 0.20749999999999938,
+      "posterior_minus_prior_average_local_mass_positive": 0.03145603009830883,
+      "prior_average_local_mass_negative": 0.1087324091481942,
+      "posterior_average_local_mass_negative": 0.15133333333333332,
+      "posterior_minus_prior_average_local_mass_negative": 0.042600924185139125,
+      "prior_average_local_mass_positive_normalized": 0.33926350575832326,
+      "posterior_average_local_mass_positive_normalized": 0.44637659034244953,
+      "posterior_minus_prior_average_local_mass_positive_normalized": 0.10711308458412627,
+      "prior_average_local_mass_negative_normalized": 0.7326313849772,
+      "posterior_average_local_mass_negative_normalized": 0.6718063104947357,
+      "posterior_minus_prior_average_local_mass_negative_normalized": -0.060825074482464325,
+      "prior_probability_near_any_observed_event": 0.811281622716386,
+      "posterior_probability_near_any_observed_event": 0.887,
+      "posterior_minus_prior_probability_near_any_observed_event": 0.07571837728361397,
+      "prior_probability_near_any_observed_event_positive": 0.4795197646492628,
+      "posterior_probability_near_any_observed_event_positive": 0.468,
+      "posterior_minus_prior_probability_near_any_observed_event_positive": -0.011519764649262798,
+      "prior_probability_near_any_observed_event_negative": 0.3317618580671232,
+      "posterior_probability_near_any_observed_event_negative": 0.419,
+      "posterior_minus_prior_probability_near_any_observed_event_negative": 0.08723814193287677,
+      "prior_mean_distance_to_nearest_observed_event": null,
+      "posterior_mean_distance_to_nearest_observed_event": 0.18751684178586617,
+      "prior_predictive_mean": 1.4114974867171504,
+      "posterior_predictive_mean": 1.0968170123953065
+    },
+    "margin_2": {
+      "fixed_radius": 0.5,
+      "confidence_level": 0.9,
+      "posterior_survival_dkw_epsilon": 0.038702275602049495,
+      "posterior_local_mass_dkw_epsilon": 0.07740455120409899,
+      "posterior_nearest_event_dkw_epsilon": 0.038702275602049495,
+      "prior_survival_dkw_epsilon": null,
+      "prior_local_mass_dkw_epsilon": null,
+      "prior_nearest_event_dkw_epsilon": null,
+      "prior_average_local_mass": 0.36636660378080704,
+      "posterior_average_local_mass": 0.3923333333333327,
+      "posterior_minus_prior_average_local_mass": 0.025966729552525658,
+      "prior_average_local_mass_positive": 0.19694367631735346,
+      "posterior_average_local_mass_positive": 0.20066666666666674,
+      "posterior_minus_prior_average_local_mass_positive": 0.003722990349313282,
+      "prior_average_local_mass_negative": 0.16942292746345358,
+      "posterior_average_local_mass_negative": 0.19166666666666674,
+      "posterior_minus_prior_average_local_mass_negative": 0.022243739203213153,
+      "prior_average_local_mass_positive_normalized": 0.35611335169926317,
+      "posterior_average_local_mass_positive_normalized": 0.444390403610546,
+      "posterior_minus_prior_average_local_mass_positive_normalized": 0.08827705191128282,
+      "prior_average_local_mass_negative_normalized": 0.7021301661824705,
+      "posterior_average_local_mass_negative_normalized": 0.6232540840112738,
+      "posterior_minus_prior_average_local_mass_negative_normalized": -0.07887608217119668,
+      "prior_probability_near_any_observed_event": 0.8836109102349198,
+      "posterior_probability_near_any_observed_event": 0.952,
+      "posterior_minus_prior_probability_near_any_observed_event": 0.06838908976508018,
+      "prior_probability_near_any_observed_event_positive": 0.47811848323027784,
+      "posterior_probability_near_any_observed_event_positive": 0.502,
+      "posterior_minus_prior_probability_near_any_observed_event_positive": 0.023881516769722166,
+      "prior_probability_near_any_observed_event_negative": 0.40549242700464194,
+      "posterior_probability_near_any_observed_event_negative": 0.45,
+      "posterior_minus_prior_probability_near_any_observed_event_negative": 0.04450757299535807,
+      "prior_mean_distance_to_nearest_observed_event": null,
+      "posterior_mean_distance_to_nearest_observed_event": 0.172248266564068,
+      "prior_predictive_mean": 1.4147744766638986,
+      "posterior_predictive_mean": 1.1324675275384657
+    }
+  }
+}

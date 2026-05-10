@@ -1,0 +1,11 @@
+Figure 1
+Reconstructed group-specific hazard summaries obtained from the posterior predictive samples via h(x)=f(x)/S(x), where f is a smooth kernel estimate of the predictive event-time density and S is the empirical predictive survival function. The shaded ribbon is a bootstrap uncertainty band for the reconstructed curve. The dashed line is the prior baseline, dark vertical lines mark own-group observations, and lighter lines mark cross-group observations.
+
+Figure 2
+Zoomed view of the reconstructed hazard summaries over the observation-rich time window. Local peaks near own-group observations indicate the strongest posterior predictive concentration of failures, while milder peaks near the other group's observations reflect weaker cross-group borrowing.
+
+Figure 3
+Event-centered average cumulative hazard excess relative to the prior baseline. For each group, the solid curve is obtained by aligning the reconstructed cumulative hazard excess at observations from the same margin and averaging across those local windows, while the dashed curve aligns at observations from the other margin. The curves are not recentered, so values above zero indicate that the cumulative hazard remains elevated above the prior baseline around observed event times.
+
+Figure 4
+Event-centered average hazard excess relative to the prior baseline. For each group, the solid curve is obtained by aligning the reconstructed hazard excess at observations from the same margin and averaging across those local windows, while the dashed curve aligns at observations from the other margin. Values above zero indicate a local hazard level above the prior baseline around observed event times.

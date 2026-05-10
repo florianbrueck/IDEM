@@ -1,0 +1,38 @@
+Survival and cumulative hazard panels
+Prior and posterior predictive survival and cumulative hazard summaries for each group. Colors distinguish the two groups and the vertical lines mark the observed event times. Dotted and dash-dotted vertical lines indicate the prior and posterior predictive means.
+
+Group overlay
+Combined overlay of the group-specific prior and posterior predictive survival and cumulative hazard summaries. The overlay highlights how the two groups deviate from the shared prior baseline after conditioning on the data.
+
+Local diagnostics
+The local predictive mass and nearest-observation probability diagnostics compare prior and posterior predictive concentration near the observed event times in each group.
+
+Directional local diagnostics
+Positive-direction plots restrict attention to predictive draws that fall above observed event times by at most r, while negative-direction plots restrict attention to draws that fall below observed event times by at most r.
+
+Normalized directional local diagnostics
+The normalized one-sided local-mass plots divide the positive-direction summands by P(X_i > t_{i,j}^{obs}) and the negative-direction summands by P(X_i \le t_{i,j}^{obs}), so each curve is scaled by the corresponding upper- or lower-tail probability at that observed time.
+
+Hazard-scale normalized directional local diagnostics
+These plots show average cumulative-hazard ratios. The positive-direction curve averages H_i(t_{i,j}^{obs}+r)/H_i(t_{i,j}^{obs}) across observed times, and the negative-direction curve averages H_i(max(t_{i,j}^{obs}-r,0))/H_i(t_{i,j}^{obs}).
+
+Hazard-rate estimate from cumulative hazard
+These plots estimate the hazard rate by the centered finite-difference quotient (H_i(r+D)-H_i(max(r-D,0)))/(2D) as r varies on the x-axis, with fixed bandwidths D in {0.1, 0.2, 0.5}. Posterior curves are solid and prior curves are dotted.
+
+Posterior cumulative-hazard derivative approximation
+These plots show the prior and posterior averages of the finite-difference quotient (H_i(x+rD)-H_i(x))/(Dr) over the observed event times x in each group, with three step sizes D and scaled offset r in [-1,1]. For this panel only, the prior curves are computed from 1000 inverse-transform samples from the prior and drawn with dotted lines.
+
+Fixed-anchor cumulative-hazard derivative approximation
+These plots replace the average over observed anchors by the single fixed anchor x=0.1 and show the prior and posterior finite-difference quotient (H_i(x+rD)-H_i(x))/(Dr) for three step sizes D and scaled offset r in [-1,1]. For this panel only, the prior curves are computed from 1000 inverse-transform samples from the prior and drawn with dotted lines.
+
+Shifted-anchor cumulative-hazard derivative approximation (positive U)
+These plots fix D=0.5 and replace each observed anchor x by x+U before evaluating the finite-difference quotient (H_i(x+U+rD)-H_i(x+U))/(Dr). The positive-shift panel uses U in {0.01, 0.05, 0.1}. For this panel only, the prior curves are computed from 1000 inverse-transform samples from the prior and drawn with dotted lines.
+
+Shifted-anchor cumulative-hazard derivative approximation (negative U)
+These plots fix D=0.5 and replace each observed anchor x by max(0, x+U) before evaluating the finite-difference quotient (H_i(x+U+rD)-H_i(x+U))/(Dr). The negative-shift panel uses U in {-0.01, -0.05, -0.1, -0.5}. For this panel only, the prior curves are computed from 1000 inverse-transform samples from the prior and drawn with dotted lines.
+
+Directional nearest-event diagnostics
+The one-sided nearest-event diagnostics report the posterior predictive probability of landing within distance r of at least one observed event time when only upward or only downward deviations are counted.
+
+Posterior scatter
+Joint posterior predictive draws for $(T_1, T_2)$ together with the 45-degree reference line. Stronger concentration around the diagonal indicates stronger positive posterior dependence between the two groups.
